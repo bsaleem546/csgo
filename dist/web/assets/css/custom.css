@@ -1,0 +1,467 @@
+.hero-silderr {
+    padding-top: 10px;
+}
+.hero-silderr .nk-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.add_case_md_footer{
+    position: absolute;
+    bottom: 10px;
+    left: 45%;
+}
+.profile-header {
+    cursor: pointer;
+    font-size: 17px;
+}
+.hero-drop-ul {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.hero-drop-ul li {
+    /*border-right: 1px solid;*/
+    padding: 0 5px;
+}
+/*.hero-drop-ul li:nth-child(2) {
+    border-right: 0px solid;
+}*/
+.img-circle {
+    border-radius: 50px;
+    border: 1px solid #fff;
+}
+
+.set-all {
+    position: relative;
+}
+.set-all .nk-title {
+    top: -30px;
+}
+
+/* PLACE YOU CUSTOM STYLES IN THIS FILE */ 
+#circleBar .round span {
+    font-size: 9px !important;
+}
+/* Slider */
+.slick-slide {
+    margin: 0px 8px;
+    position: relative;
+    transition: all ease-in-out .3s;
+    margin-top: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.block-title{
+    background-color: #1f1432;
+    padding: 5px 20px 5px 60px;
+    font-family: "Marcellus SC", serif;
+    font-weight: 800;
+}
+.slick-slide:hover {
+	margin-top: 0px;
+	border-top: 2px solid #e08821;
+	border-bottom: 2px solid #e08821;
+}
+.slick-slide .price{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 0px 15px;
+    background-color: #1c122d;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.slick-slide .title{
+    position: absolute;
+    bottom: 0;
+    margin-top: 15px;
+    background-color: rgb(0,0,0,0.4);
+    color: #fff;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.7rem !important;
+    transition: all ease-in-out .3s;
+}
+
+
+.slick-slide:hover .title{
+    font-size: 18px;
+    background-color: rgb(0,0,0,0.7);
+}
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    background-color: rgb(0,0,0,0.4);
+    padding-bottom: 23px;
+    padding-top: 10px;
+    border-top: 1px solid #e08821;
+    border-bottom: 1px solid #e08821;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+/* Give Away */
+.giveaway-row .col-md-4{
+    padding: 0px;
+}
+.giveaway-block{
+    height: 200px;
+    overflow: hidden;
+}
+.giveaway-block #image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.giveaway-block #image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all ease-in-out .3s;
+}
+
+.giveaway-block:hover #image img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 120%;
+    width: 120%;
+    margin-left: -10%;
+    margin-top: -10%;
+}
+
+.giveaway-block #overlay1 {
+    position:absolute;
+    left:0;
+    top:0;
+    background: linear-gradient(45deg, rgb(224 136 33 / 22%) 0%, #1f1432 100%);
+    width:100%;
+    height:100%;
+}
+
+.giveaway-block .title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0px 25px 0px 15px;
+    background-color: rgb(0,0,0,0.3);
+    font-family: "Marcellus SC", serif;
+    font-weight: bold;
+}
+
+.giveaway-block .label {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    padding: 0px 25px 0px 15px;
+    font-family: "Marcellus SC", serif;
+    font-weight: bold;
+}
+.giveaway-block .time {
+    position: absolute;
+    top: 110px;
+    right: 0;
+    padding: 0px 25px 0px 15px;
+}
+
+.giveaway-block .join {
+    position: absolute;
+    top: 150px;
+    right: 0;
+    padding: 5px 25px 5px 15px;
+    background-color: rgb(0,0,0,0.2);
+    color:#fff;
+    font-weight: bold;
+}
+
+.giveaway-block .icon {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+    width: 150px;
+    background-size: cover;
+}
+
+.section-block{
+    border-top: 1px solid #e08821;
+    border-bottom: 1px solid #e08821;
+    padding: 10px; 
+}
+.widget-block{
+    width: 100%;
+    position: relative;
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.widget-block .price{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 0px 15px;
+    background-color: #e08821;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.widget-block .title{
+    position: absolute;
+    bottom: 0;
+    margin-top: 15px;
+    background-color: rgb(0,0,0,0.4);
+    color: #fff;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.7rem !important;
+    transition: all ease-in-out .3s;
+}
+.logged-in-block {
+    position: relative;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+.logged-in-block img{
+    width: 27px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.logged-in-block span{
+    margin-left: 40px;
+    font-size: 22px;
+}
+.logged-in-block a{
+    margin-left: 29px;
+}
+
+
+/* User Profile */
+.float-right{
+    float: right !important;
+}
+
+.balance-block {
+    background-color: rgb(0,0,0,0.2);
+    padding: 15px 25px;
+    position: relative;
+}
+.balance-block .value{
+    color: #777;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.balance-block .value input[type="text"] {
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+    color: #fff;
+    padding: 0 15px 0px 0;
+}
+
+.balance-block .value input[type="text"]::placeholder {
+  color: #cecece;
+  opacity: 1; /* Firefox */
+}
+
+.balance-block .value p {
+    margin-bottom: 0;
+}
+
+.balance-block .value span{
+    color: #fff;
+    /*font-size: 21px;*/
+    padding: 0px 15px;
+}
+/*.balance-block a, .balance-block .submt{
+    position: absolute;
+    top: 7.5px;
+    right: 10px;
+    padding: 7px 20px;
+    border: 1px solid #fff;
+    transition: all ease-in-out .1s;
+    background-color: transparent;
+    color: #e08821;
+}*/
+/*.balance-block a:hover, .balance-block .submt:hover{
+    background-color: #e08821;
+    color:#fff;
+    cursor: pointer;
+}*/
+.nk-btn-pro {
+    padding: 4px 15px;
+    border: 1px solid #eee;
+    font-size: 14px;
+    color: #e08821;
+    background-color: #0f0e0e6e;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn-info{
+    background-color: #17a2b8 !important;
+}
+.btn-success{
+    background-color: #1e7e34 !important;
+}
+.btn-danger{
+    background-color: #bd2130 !important;
+}
+@media screen and (max-width: 600px) {
+    .giveaway-block .icon {
+        position: absolute;
+        top: 5px;
+        left: 35px;
+    }
+
+    .giveaway-block .label {
+        position: absolute;
+        top: 130px;
+        left: 25px;
+    }
+
+    .giveaway-block .time {
+        position: absolute;
+        top: 160px;
+        left: 25px;
+        padding: 0px 25px 0px 15px;
+    }
+
+    .giveaway-block .join {
+        position: absolute;
+        top: 80px;
+        right: 0;
+    }
+}
